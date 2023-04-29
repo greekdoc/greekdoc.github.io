@@ -1,0 +1,19 @@
+//<script src='../js/cognate/lhmyis.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anal.html#analhmyis'>ἀνάλημψις</a>, ");
+document.write("<a href='anal.html#analhyis'>ἀνάληψις</a>, ");
+document.write("<a href='antil.html#antilhmyis'>ἀντίλημψις</a>, ");
+document.write("<a href='antil.html#antilhyis'>ἀντίληψις</a>, ");
+document.write("<a href='dial.html#dialhmyis'>διάλημψις</a>, ");
+document.write("<a href='katal.html#katalhmyis'>κατάλημψις</a>, ");
+document.write("<a href='katal.html#katalhyis'>κατάληψις</a>, ");
+document.write("<a href='lh.html#lhmyis'>λῆμψις</a>, ");
+document.write("<a href='meta.html#metalhmyis'>μετάλημψις</a>, ");
+document.write("<a href='peril.html#perilhmyis'>περίλημψις</a>, ");
+document.write("<a href='prosl.html#proslhmyis'>πρόσλημψις</a>, ");
+document.write("<a href='prosl.html#proslhyis'>πρόσληψις</a>, ");
+document.write("<a href='sul.html#sullhmyis'>σύλλημψις</a>, ");
+document.write("<a href='sul.html#sullhyis'>σύλληψις</a>, ");
+document.write("<a href='upol.html#upolhmyis'>ὑπόλημψις</a>");
+document.write("</p></li>");

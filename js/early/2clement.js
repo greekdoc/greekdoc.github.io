@@ -1,0 +1,27 @@
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write(" <li><span class='w'>Chapter:</span> </li>");
+document.write(" <li><a href='2clem01.html'>1</a></li>");
+document.write(" <li><a href='2clem02.html'>2</a></li>");
+document.write(" <li><a href='2clem03.html'>3</a></li>");
+document.write(" <li><a href='2clem04.html'>4</a></li>");
+document.write(" <li><a href='2clem05.html'>5</a></li>");
+document.write(" <li><a href='2clem06.html'>6</a></li>");
+document.write(" <li><a href='2clem07.html'>7</a></li>");
+document.write(" <li><a href='2clem08.html'>8</a></li>");
+document.write(" <li><a href='2clem09.html'>9</a></li>");
+document.write(" <li><a href='2clem10.html'>10</a></li>");
+document.write(" <li><a href='2clem11.html'>11</a></li>");
+document.write(" <li><a href='2clem12.html'>12</a></li>");
+document.write(" <li><a href='2clem13.html'>13</a></li>");
+document.write(" <li><a href='2clem14.html'>14</a></li>");
+document.write(" <li><a href='2clem15.html'>15</a></li>");
+document.write(" <li><a href='2clem16.html'>16</a></li>");
+document.write(" <li><a href='2clem17.html'>17</a></li>");
+document.write(" <li><a href='2clem18.html'>18</a></li>");
+document.write(" <li><a href='2clem19.html'>19</a></li>");
+document.write(" <li><a href='2clem20.html'>20</a></li>");
+
+document.write(" <li><a href='1clem01.html'>I&nbsp;Clement</a></li>");
+document.write("</ul>");
+document.write("</div>");

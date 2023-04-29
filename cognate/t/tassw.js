@@ -1,0 +1,23 @@
+//<script src='js/cognate/t/tassw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anat.html#anatassomai'>ἀνατάσσομαι</a>, ");
+document.write("<a href='antip.html#antiparatassomai'>ἀντιπαρατάσσομαι</a>, ");
+document.write("<a href='antit.html#antitassw'>ἀντιτάσσω</a>, ");
+document.write("<a href='apot.html#apotassw'>ἀποτάσσω</a>, ");
+document.write("<a href='diat.html#diatassw'>διατάσσω</a>, ");
+document.write("<a href='ekt.html#ektassw'>ἐκτάσσω</a>, ");
+document.write("<a href='ent.html#entassw'>ἐντάσσω</a>, ");
+document.write("<a href='enu.html#enupotassw'>ἐνυποτάσσω</a>, ");
+document.write("<a href='epid.html#epidiatassomai'>ἐπιδιατάσσομαι</a>, ");
+document.write("<a href='epit.html#epitassw'>ἐπιτάσσω</a>, ");
+document.write("<a href='katat.html#katatassw'>κατατάσσω</a>, ");
+document.write("<a href='parat.html#paratassw'>παρατάσσω</a>, ");
+document.write("<a href='proa.html#proanatassw'>προανατάσσω</a>, ");
+document.write("<a href='prost.html#prostassw'>προστάσσω</a>, ");
+document.write("<a href='prot.html#protassw'>προτάσσω</a>, ");
+document.write("<a href='sugka.html#sugkatatassw'>συγκατατάσσω</a>, ");
+document.write("<a href='sunta.html#suntassw'>συντάσσω</a>, ");
+document.write("<a href='ta.html#tassw'>τάσσω</a>, ");
+document.write("<a href='upot.html#upotassw'>ὑποτάσσω</a>");
+document.write("</p></li>");

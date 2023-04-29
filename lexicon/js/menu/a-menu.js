@@ -1,0 +1,41 @@
+﻿//Α menu
+
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+// document.write("<li><a href='w.html'><img src='image/back.png' alt='back' /></a> </li>");
+document.write("<li><a href='a.html'>α</a></li>");
+document.write("<li><a href='aa.html'>αα</a></li>");
+document.write("<li><a href='ab.html'>αβ</a></li>");
+document.write("<li><a href='ag.html'>αγ</a></li>");
+document.write("<li><a href='ad.html'>αδ</a></li>");
+document.write("<li><a href='ae.html'>αε</a></li>");
+document.write("<li><a href='az.html'>αζ</a></li>");
+document.write("<li><a href='ah.html'>αη</a></li>");
+document.write("<li><a href='aq.html'>αθ</a></li>");
+document.write("</ul>");
+document.write("</div>");
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write("<li><a href='ai.html'>αι</a></li>");
+document.write("<li><a href='ak.html'>ακ</a></li>");
+document.write("<li><a href='al.html'>αλ</a></li>");
+document.write("<li><a href='am.html'>αμ</a></li>");
+document.write("<li><a href='an.html'>αν</a></li>");
+document.write("<li><a href='ax.html'>αξ</a></li>");
+document.write("<li><a href='ao.html'>αο</a></li>");
+document.write("<li><a href='ap.html'>απ</a></li>");
+document.write("</ul>");
+document.write("</div>");
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write("<li><a href='ar.html'>αρ</a></li>");
+document.write("<li><a href='as.html'>ασ</a></li>");
+document.write("<li><a href='at.html'>ατ</a></li>");
+document.write("<li><a href='au.html'>αυ</a></li>");
+document.write("<li><a href='af.html'>αφ</a></li>");
+document.write("<li><a href='ac.html'>αχ</a></li>");
+document.write("<li><a href='ay.html'>αψ</a></li>");
+document.write("<li><a href='aw.html'>αω</a></li>");
+								
+document.write("</ul>");
+document.write("</div>");

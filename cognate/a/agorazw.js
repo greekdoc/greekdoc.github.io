@@ -1,0 +1,7 @@
+//<script src='../js/cognate/a/agorazw.js'></script>
+//put above line before </ul>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='ago.html#agorazw'>ἀγοράζω</a>, ");
+document.write("<a href='exag.html#exagorazw'>ἐξαγοράζω</a>");
+document.write("</p></li>");

@@ -1,0 +1,30 @@
+//basic cognates αγω
+//<script src='../js/cognate/agw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='agw.html#agw'>ἄγω</a>, ");
+document.write("<a href='anag.html#anagw'>ἀνάγω</a>, ");
+document.write("<a href='agw.html#agw'>ἄγω</a>, ");
+document.write("<a href='antip.html#antiparagw'>ἀντιπαράγω</a>, ");
+document.write("<a href='apag.html#apagw'>ἀπάγω</a>, ");
+document.write("<a href='aposu.html#aposunagw'>ἀποσυνάγω</a>, ");
+document.write("<a href='diag.html#diagw'>διάγω</a>, ");
+document.write("<a href='die.html#diexagw'>διεξάγω</a>, ");
+document.write("<a href='eis.html#eisagw'>εἰσάγω</a>, ");
+document.write("<a href='epag.html#epagw'>ἐπάγω</a>, ");
+document.write("<a href='epan.html#epanagw'>ἐπανάγω</a>, ");
+document.write("<a href='episu.html#episunagw'>ἐπισυνάγω</a>, ");
+document.write("<a href='exag.html#exagw'>ἐξάγω</a>, ");
+document.write("<a href='katag.html#katagw'>κατάγω</a>, ");
+document.write("<a href='meta.html#metagw'>μετάγω</a>, ");
+document.write("<a href='parag.html#paragw'>παράγω</a>, ");
+document.write("<a href='parei.html#pareisagw'>παρεισάγω</a>, ");
+document.write("<a href='peria.html#periagw'>περιάγω</a>, ");
+document.write("<a href='proa.html#proagw'>προάγω</a>, ");
+document.write("<a href='prosa.html#prosagw'>προσάγω</a>, ");
+document.write("<a href='ro.html#rosagw'>ῥοσάγω</a>, ");
+document.write("<a href='sunag.html#sunagw'>συνάγω</a>, ");
+document.write("<a href='sunap.html#sunapagw'>συναπάγω</a>, ");
+document.write("<a href='upa.html#upagw'>ὑπάγω</a>, ");
+document.write("<a href='uper.html#uperagw'>ὑπεράγω</a>");
+document.write("</p></li>");

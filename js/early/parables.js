@@ -1,0 +1,18 @@
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write(" <li><span class='w'>Parable:</span></li>");
+document.write(" <li><a href='parable01.html'>1</a></li>");
+document.write(" <li><a href='parable02.html'>2</a></li>");
+document.write(" <li><a href='parable03.html'>3</a></li>");
+document.write(" <li><a href='parable04.html'>4</a></li>");
+document.write(" <li><a href='parable05.html'>5</a></li>");
+document.write(" <li><a href='parable06.html'>6</a></li>");
+document.write(" <li><a href='parable07.html'>7</a></li>");
+document.write(" <li><a href='parable08.html'>8</a></li>");
+document.write(" <li><a href='parable09.html'>9</a></li>");
+document.write(" <li><a href='parable10.html'>10</a></li>");
+//document.write("</br></br>");
+			document.write(" <li><a href='mandate01.html'>Mandates</a></li>");
+			document.write(" <li><a href='vision01.html'>Visions</a></li>");
+document.write("</ul>");
+document.write("</div>");

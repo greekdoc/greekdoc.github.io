@@ -1,0 +1,46 @@
+//lexicon menu
+document.write("<h1>KOINE GREEK LEXICON</h1>");
+
+document.write("<div class='yellowmoon'>");
+	document.write("<ul>");
+		document.write("<li><a href='a.html'>&#945;</a></li>");
+		document.write("<li><a href='b.html'>&#946;</a></li>");
+		document.write("<li><a href='g.html'>&#947;</a></li>");
+		document.write("<li><a href='d.html'>&#948;</a></li>");
+		document.write("<li><a href='e.html'>&#949;</a></li>");
+		document.write("<li><a href='z.html'>&#950;</a></li>");
+		document.write("<li><a href='h.html'>&#951;</a></li>");
+		document.write("<li><a href='q.html'>&#952;</a></li>");
+		document.write("<li><a href='i.html'>&#953;</a></li>");
+		document.write("<li><a href='k.html'>&#954;</a></li>");
+		document.write("<li><a href='l.html'>&#955;</a></li>");
+		document.write("<li><a href='m.html'>&#956;</a></li>");
+		document.write("<li><a href='n.html'>&#957;</a></li>");
+		document.write("<li><a href='x.html'>&#958;</a></li>");
+		document.write("<li><a href='o.html'>&#959;</a></li>");
+		document.write("<li><a href='p.html'>&#960;</a></li>");
+		document.write("<li><a href='r.html'>&#961;</a></li>");
+		document.write("<li><a href='s.html'>&#963;</a></li>");
+	document.write("</ul>");
+document.write("</div>");
+document.write("<div class='yellowmoon'>");
+	document.write("<ul>");
+		document.write("<li><a href='t.html'>&#964;</a></li>");
+		document.write("<li><a href='u.html'>&#965;</a></li>");
+		document.write("<li><a href='f.html'>&#966;</a></li>");
+		document.write("<li><a href='c.html'>&#967;</a></li>");
+		document.write("<li><a href='y.html'>&#968;</a></li>");
+		document.write("<li><a href='w.html'>&#969;</a></li>");
+		document.write("<li><a href='v.html'><span class='r'>&#987;</span></a></li>");
+		document.write("<li><a href='koppa.html'><span class='r'>&#985;</span></a></li>");
+		document.write("<li><a href='number.html'>Number</a></li>");
+		document.write("<li><a href='../names/aa.html'>Names</a></li>");
+	document.write("</ul>");
+document.write("</div>");
+document.write("<div class='yellowmoon'>");
+	document.write("<ul>");
+//document.write("		<input type='text' placeholder='Search..'>");
+	document.write("</ul>");
+document.write("</div>");
+
+document.write("<div class='booktitle'><a href='#top'><img src='../images/yellowtop.png' alt='top' /></a></div>");

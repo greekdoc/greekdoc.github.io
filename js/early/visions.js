@@ -1,0 +1,13 @@
+	document.write("<div class='halfmoon'>");
+		document.write("<ul>");
+			document.write(" <li><span class='w'>Visions:</span> </li>");
+			document.write(" <li><a href='vision01.html'>1</a></li>");
+			document.write(" <li><a href='vision02.html'>2</a></li>");
+			document.write(" <li><a href='vision03.html'>3</a></li>");
+			document.write(" <li><a href='vision04.html'>4</a></li>");
+			document.write(" <li><a href='vision05.html'>5</a></li>");
+//document.write("</br></br>");
+			document.write(" <li><a href='mandate01.html'>Mandates</a></li>");
+			document.write(" <li><a href='parable01.html'>Parables</a></li>");
+		document.write("</ul>");
+	document.write("</div>");

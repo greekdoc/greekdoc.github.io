@@ -1,0 +1,35 @@
+﻿//W menu
+
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write("<li><a href='y.html'><img src='image/back.png' alt='back' /></a> </li>");
+document.write("<li><a href='w.html'>ω</a></li>");
+document.write("<li><a href='wa.html'>ωα</a></li>");
+document.write("<li><a href='wd.html'>ωδ</a></li>");
+document.write("<li><a href='we.html'>ωε</a></li>");
+document.write("<li><a href='wz.html'>ωζ</a></li>");
+document.write("<li><a href='wh.html'>ωη</a></li>");
+document.write("<li><a href='wq.html'>ωθ</a></li>");
+document.write("</ul>");
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write("<li><a href='wk.html'>ωκ</a></li>");
+document.write("<li><a href='wl.html'>ωλ</a></li>");
+document.write("<li><a href='wm.html'>ωμ</a></li>");
+document.write("<li><a href='wn.html'>ων</a></li>");
+document.write("<li><a href='wx.html'>ωξ</a></li>");
+document.write("<li><a href='wo.html'>ωο</a></li>");
+document.write("<li><a href='wp.html'>ωπ</a></li>");
+document.write("<li><a href='wr.html'>ωρ</a></li>");
+document.write("</ul>");
+document.write("<div class='halfmoon'>");
+document.write("<ul>");
+document.write("<li><a href='ws.html'>ωσ</a></li>");
+document.write("<li><a href='wt.html'>ωτ</a></li>");
+document.write("<li><a href='wf.html'>ωφ</a></li>");
+document.write("<li><a href='wc.html'>ωχ</a></li>");
+document.write("<li><a href='wy.html'>ωψ</a></li>");
+document.write("<li><a href='ww.html'>ωω</a></li>");
+document.write("<li><a href='a.html'><img src='image/forth.png' alt='forth' /></a> </li>");								
+document.write("</ul>");
+document.write("</div>");

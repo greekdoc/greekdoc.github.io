@@ -1,0 +1,19 @@
+//<script src='../js/cognate/blepw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anab.html#anablepw'>ἀναβλέπω</a>, ");1
+document.write("<a href='bl.html#blepw'>βλέπω</a>, ");
+document.write("<a href='antib.html#antiblepw'>ἀντιβλέπω</a>, ");
+document.write("<a href='apob.html#apoblepw'>ἀποβλέπω</a>, ");
+document.write("<a href='diab.html#diablepw'>διαβλέπω</a>, ");
+document.write("<a href='eis.html#eisblepw'>εἰσβλέπω</a>, ");
+document.write("<a href='emb.html#emblepw'>ἐμβλέπω</a>, ");
+document.write("<a href='epib.html#epiblepw'>ἐπιβλέπω</a>, ");
+document.write("<a href='katab.html#katablepw'>καταβλέπω</a>, ");
+document.write("<a href='katem.html#katemblepw'>κατεμβλέπω</a>, ");
+document.write("<a href='parab.html#parablepw'>παραβλέπω</a>, ");
+document.write("<a href='perib.html#periblepw'>περιβλέπω</a>, ");
+document.write("<a href='prob.html#problepw'>προβλέπω</a>, ");
+document.write("<a href='prosb.html#prosblepw'>προσβλέπω</a>, ");
+document.write("<a href='upob.html#upoblepw'>ὑποβλέπω</a>");
+document.write("</p></li>");

@@ -1,0 +1,268 @@
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+
+.halfmoon{
+margin: -1em;
+}
+
+.halfmoon ul{
+/* padding: 3px 2px 2px 5px; */
+padding: 1em 1px 1em 1px;
+margin-left: 0;
+
+margin-top: 1px;
+margin-bottom: 1px;
+margin: auto; /* center the line of entries */
+font: bold 1em "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+/* border-bottom: 1em solid #929492; */
+max-width: 490px; /* max width to fit tablet */
+line-height: 1.8em; /* on long entries, second line has a space */
+}
+
+.halfmoon li{
+display: inline;
+margin-top: 0px;
+}
+
+.halfmoon li a{
+text-decoration: none;
+padding: 2px 5px 2px 3px;
+margin-top: 0px;
+margin-right: 1px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+font: bold 30px "Times New Roman", Times, Serif;
+background: #FFF;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.halfmoon li a:visited{
+color: black;
+}
+
+.halfmoon li a:hover{
+background-color: black;
+color: white;
+}
+
+
+
+
+#darkmoon{
+margin-bottom: 10px;
+max-width: 900px;
+clear: left;
+}
+
+#darkmoon ul{
+padding: 0 9px 0px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 12px Arial, Helvetica, sans-serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px;
+}
+
+#darkmoon li{
+display: inline;
+margin: 0;
+}
+
+#darkmoon li a{
+text-decoration: none;
+padding: 3px 3px 2px 3px; /*top, right, bottom, left*/
+margin: 0;
+margin-right: 7px; /*distance between each tab*/
+border-style: none none solid none ;
+color: black;
+font: bold 30px "Times New Roman", Times, Serif;
+background: #FFF;
+/* font-size: 15px; */
+/* background: url('dark1.png'); */
+
+/*background: #ECEEEC url(http://www.motorera.com/theology/tabright.gif) top right no-repeat;*/
+/*background: blue;*/
+}
+
+#darkmoon li a:visited{
+color: black;
+background: url('dark1.png');
+
+}
+
+#darkmoon li a:hover{
+	background: url('dark2.png');
+background-color: #CDDADA;
+color: red;
+margin-top: 100px;
+}
+
+
+
+.pinkmoon{
+margin-bottom: 20px;
+}
+
+.pinkmoon ul{
+padding: 1em 1px 1em 1px;
+
+/* padding: 3px 9px 1px 5px; */
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 1px;
+font: bold 10px "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+/* border-bottom: 0px solid #929492; */
+line-height: 4.8em; /* on long entries, second line has a space */
+
+}
+
+.pinkmoon li{
+display: inline;
+margin: 0;
+}
+
+.pinkmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 2.5em; */
+font: bold 30px "Times New Roman", Times, Serif;
+
+/* font-weight: bold; */
+background: #F7A7A7;
+
+
+
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.pinkmoon li a:visited{
+color: black;
+}
+
+.pinkmoon li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+.pink li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+
+
+.greenmoon{
+margin-bottom: 2px;
+}
+
+.greenmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 10px "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px solid #929492;
+
+}
+
+.greenmoon li{
+display: inline;
+margin: 0;
+}
+
+.greenmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 2.5em; */
+font: bold 30px "Times New Roman", Times, Serif;
+
+/* font-weight: bold; */
+background: #80FF80;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.greenmoon li a:visited{
+color: black;
+}
+
+.greenmoon li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+
+
+
+.yellowmoon{
+margin-bottom: 2px;
+}
+
+.yellowmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 30px "Times New Roman", Times, Serif;
+
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px solid #929492;
+
+}
+
+.yellowmoon li{
+display: inline;
+margin: 0;
+}
+
+.yellowmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 34px; */
+font: bold 34px "Times New Roman", Times, Serif;
+background: #FFFF00;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.yellowmoon li a:visited{
+color: black;
+}
+
+.yellowmoon li a:hover{
+/* background-color: #CDDADA; */
+background-color: #000;
+color: #FFFF00;
+}

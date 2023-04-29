@@ -1,0 +1,56 @@
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bigmoon{
+margin-bottom: 10px;
+max-width: 900px;
+clear: left;
+}
+
+.bigmoon ul{
+padding: 0 9px 0px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 20px Arial, Helvetica, sans-serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px;
+}
+
+.bigmoon li{
+display: inline;
+margin: 0;
+}
+
+.bigmoon li a{
+text-decoration: none;
+padding: 3px 3px 2px 3px; /*top, right, bottom, left*/
+margin: 0;
+margin-right: 10px; /*distance between each tab*/
+border-style: none none solid none ;
+color: black;
+font-size: 30px;
+background: url('dark1.png');
+
+/*background: #ECEEEC url(http://www.motorera.com/theology/tabright.gif) top right no-repeat;*/
+/*background: blue;*/
+}
+
+.bigmoon li a:visited{
+color: black;
+background: url('dark1.png');
+
+}
+
+.bigmoon li a:hover{
+	background: url('dark2.png');
+background-color: #CDDADA;
+color: red;
+margin-top: 100px;
+}
+

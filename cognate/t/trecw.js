@@ -1,0 +1,20 @@
+//<script src='js/cognate/t/trecw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anat.html#anatrecw'>ἀνατρέχω</a>, ");
+document.write("<a href='apot.html#apotrecw'>ἀποτρέχω</a>, ");
+document.write("<a href='diat.html#diatrecw'>διατρέχω</a>, ");
+document.write("<a href='eis.html#eistrecw'>εἰστρέχω</a>, ");
+document.write("<a href='ekt.html#ektrecw'>ἐκτρέχω</a>, ");
+document.write("<a href='epan.html#epanatrecw'>ἐπανατρέχω</a>, ");
+document.write("<a href='episu.html#episuntrecw'>ἐπισυντρέχω</a>, ");
+document.write("<a href='epit.html#epitrecw'>ἐπιτρέχω</a>, ");
+document.write("<a href='katat.html#katatrecw'>κατατρέχω</a>, ");
+document.write("<a href='parat.html#paratrecw'>παρατρέχω</a>, ");
+document.write("<a href='perit.html#peritrecw'>περιτρέχω</a>, ");
+document.write("<a href='prost.html#prostrecw'>προστρέχω</a>, ");
+document.write("<a href='prot.html#protrecw'>προτρέχω</a>, ");
+document.write("<a href='suntr.html#suntrecw'>συντρέχω</a>, ");
+document.write("<a href='tre.html#trecw'>τρέχω</a>, ");
+document.write("<a href='upot.html#upotrecw'>ὑποτρέχω</a>");
+document.write("</p></li>");

@@ -1,0 +1,19 @@
+//<script src='../js/cognate/afihmi.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='afi.html#afihmi'>ἀφίημι</a>, ");
+document.write("<a href='ani.html#anihmi'>ἀνίημι</a>, ");
+document.write("<a href='die.html#diexihmi'>διεξίημι</a>, ");
+document.write("<a href='egk.html#egkaqihmi'>ἐγκαθίημι</a>, ");
+document.write("<a href='ena.html#enafihmi'>ἐναφίημι</a>, ");
+document.write("<a href='eni.html#enihmi'>ἐνίημι</a>, ");
+document.write("<a href='exaf.html#exafihmi'>ἐξαφίημι</a>, ");
+document.write("<a href='exi.html#exihmi'>ἐξίημι</a>, ");
+document.write("<a href='epaf.html#epafihmi'>ἐπαφίημι</a>, ");
+document.write("<a href='ih.html#ihmi'>ἵημι</a>, ");
+document.write("<a href='kaq.html#kaqihmi'>καθίημι</a>, ");
+document.write("<a href='pari.html#parihmi'>παρίημι</a>, ");
+document.write("<a href='perih.html#perihmi'>περίημι</a>, ");
+document.write("<a href='prosi.html#prosihmi'>προσίημι</a>, ");
+document.write("<a href='suni.html#sunihmi'>συνίημι</a>");
+document.write("</p></li>");

@@ -1,0 +1,25 @@
+//<script src='js/cognate/lambanw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anal.html#analambanw'>ἀναλαμβάνω</a>, ");
+document.write("<a href='antil.html#antilambanw'>ἀντιλαμβάνω</a>, ");
+document.write("<a href='apola.html#apolambanw'>ἀπολαμβάνω</a>, ");
+document.write("<a href='dial.html#dialambanw'>διαλαμβάνω</a>, ");
+document.write("<a href='ekl.html#eklambanw'>ἐκλαμβάνω</a>, ");
+document.write("<a href='epik.html#epikatalambanw'>ἐπικαταλαμβάνω</a>, ");
+document.write("<a href='epil.html#epilambanw'>ἐπιλαμβάνω</a>, ");
+document.write("<a href='katal.html#katalambanw'>καταλαμβάνω</a>, ");
+document.write("<a href='la.html#lambanw'>λαμβάνω</a>, ");
+document.write("<a href='meta.html#metalambanw'>μεταλαμβάνω</a>, ");
+document.write("<a href='paral.html#paralambanw'>παραλαμβάνω</a>, ");
+document.write("<a href='peril.html#perilambanw'>περιλαμβάνω</a>, ");
+document.write("<a href='prok.html#prokatalambanw'>προκαταλαμβάνω</a>, ");
+document.write("<a href='prol.html#prolambanw'>προλαμβάνω</a>, ");
+document.write("<a href='prosa.html#prosanalambanw'>προσαναλαμβάνω</a>, ");
+document.write("<a href='prosl.html#proslambanw'>προσλαμβάνω</a>, ");
+document.write("<a href='sul.html#sullambanw'>συλλαμβάνω</a>, ");
+document.write("<a href='sumpa.html#sumparalambanw'>συμπαραλαμβάνω</a>, ");
+document.write("<a href='sumpe.html#sumperilambanw'>συμπεριλαμβάνω</a>, ");
+document.write("<a href='sunan.html#sunantilambanomai'>συναντιλαμβάνομαι</a>, ");
+document.write("<a href='upol.html#upolambanw'>ὑπολαμβάνω</a>");
+document.write("</p></li>");

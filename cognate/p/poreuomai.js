@@ -1,0 +1,20 @@
+//<script src='js/cognate/p/poreuomai.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='diap.html#diaporeuomai'>διαπορεύομαι</a>, ");
+document.write("<a href='eis.html#eisporeuomai'>εἰσπορεύομαι</a>, ");
+document.write("<a href='ekp.html#ekperiporeuomai'>ἐκπεριπορεύομαι</a>, ");
+document.write("<a href='ekp.html#ekporeuomai'>ἐκπορεύομαι</a>, ");
+document.write("<a href='emp.html#emporeuomai'>ἐμπορεύομαι</a>, ");
+document.write("<a href='epip.html#epiporeuomai'>ἐπιπορεύομαι</a>, ");
+document.write("<a href='katap.html#kataporeuomai'>καταπορεύομαι</a>, ");
+document.write("<a href='parap.html#paraporeuomai'>παραπορεύομαι</a>, ");
+document.write("<a href='parei.html#pareisporeuomai'>παρεισπορεύομαι</a>, ");
+document.write("<a href='perip.html#periporeuomai'>περιπορεύομαι</a>, ");
+document.write("<a href='por.html#poreuomai'>πορεύομαι</a>, ");
+document.write("<a href='prop.html#proporeuomai'>προπορεύομαι</a>, ");
+document.write("<a href='prosp.html#prosporeuomai'>προσπορεύομαι</a>, ");
+document.write("<a href='sumpo.html#sumporeuomai'>συμπορεύομαι</a>, ");
+document.write("<a href='sumpr.html#sumproporeuomai'>συμπροπορεύομαι</a>, ");
+document.write("<a href='sunek.html#sunekporeuomai'>συνεκπορεύομαι</a>");
+document.write("</p></li>");

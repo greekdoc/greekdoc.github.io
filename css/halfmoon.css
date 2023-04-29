@@ -1,0 +1,315 @@
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+/* reset CSS */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,
+caption,center,cite,dd,del,details,dfn,div,dl,dt,em,embed,
+fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,
+img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,
+q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,
+th,thead,time,tr,tt,u,ul,var,video
+{
+border: 0;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+}
+
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size:1em; font-weight:normal; font-style:normal;}
+ul,ol {list-style:none;}
+fieldset,img,hr {border:none;}
+caption,th {text-align:left;}
+table {border-collapse:collapse; border-spacing:0;}
+td {vertical-align:top;}
+
+/* end reset */
+
+/*
+Correct padding with widths.
+When you add padding to an element with a width,
+ it will end up much larger than what it should be.
+ The width and the padding will be added together.
+ So, if I have an element with the width of 100px,
+ and I add a padding of 10px to that same element,
+ then the awkward browser behavior will make that
+ element 120px. The following will correct that.
+*/
+
+* { -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box; /* Firefox, other Gecko */
+box-sizing: border-box; }
+
+/* Clear all floats */
+.parent-selector:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Clear all wrap floats */
+.wrap:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.halfmoon{
+margin-bottom: 2px;
+}
+
+.halfmoon ul{
+/* padding: 3px 2px 2px 5px; */
+/* padding: 2em 2em 2em 2em; */
+padding: 1px 1px 1px 1px;
+
+margin-left: 0;
+
+margin-top: 1px;
+margin-bottom: 1px;
+margin: auto; /* center the line of entries */
+font: bold 1em "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+/* border-bottom: 0px solid #929492; */
+max-width: 490px; /* max width to fit tablet */
+line-height: 2.2em;
+ /* on long entries, second line has a space */
+
+}
+
+.halfmoon li{
+display: inline;
+margin: 0;
+}
+
+.halfmoon li a{
+text-decoration: none;
+padding: 2px 5px 2px 3px;
+margin: 0;
+margin-right: 2px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+font: bold 30px "Times New Roman", Times, Serif;
+/* background: #FFF; */
+background: yellow;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.halfmoon li a:visited{
+color: black;
+}
+
+.halfmoon li a:hover{
+background-color: black;
+color: white;
+}
+
+
+
+
+#darkmoon{
+margin-bottom: 10px;
+max-width: 900px;
+clear: left;
+}
+
+#darkmoon ul{
+padding: 0 9px 0px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 12px Arial, Helvetica, sans-serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px;
+}
+
+#darkmoon li{
+display: inline;
+margin: 0;
+}
+
+#darkmoon li a{
+text-decoration: none;
+padding: 3px 3px 2px 3px; /*top, right, bottom, left*/
+margin: 0;
+margin-right: 7px; /*distance between each tab*/
+border-style: none none solid none ;
+color: black;
+font: bold 30px "Times New Roman", Times, Serif;
+background: #FFF;
+/* font-size: 15px; */
+/* background: url('dark1.png'); */
+
+/*background: #ECEEEC url(http://www.motorera.com/theology/tabright.gif) top right no-repeat;*/
+/*background: blue;*/
+}
+
+#darkmoon li a:visited{
+color: black;
+background: url('dark1.png');
+
+}
+
+#darkmoon li a:hover{
+	background: url('dark2.png');
+background-color: #CDDADA;
+color: red;
+margin-top: 100px;
+}
+
+
+
+.pinkmoon{
+margin-bottom: 20px;
+}
+
+.pinkmoon ul{
+padding: 3px 9px 1px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 1px;
+font: bold 10px "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+/* border-bottom: 0px solid #929492; */
+
+}
+
+.pinkmoon li{
+display: inline;
+margin: 0;
+}
+
+.pinkmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 2.5em; */
+font: bold 30px "Times New Roman", Times, Serif;
+
+/* font-weight: bold; */
+background: #F7A7A7;
+
+
+
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.pinkmoon li a:visited{
+color: black;
+}
+
+.pinkmoon li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+
+.greenmoon{
+margin-bottom: 2px;
+}
+
+.greenmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 10px "Times New Roman", Times, Serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px solid #929492;
+
+}
+
+.greenmoon li{
+display: inline;
+margin: 0;
+}
+
+.greenmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 2.5em; */
+font: bold 30px "Times New Roman", Times, Serif;
+
+/* font-weight: bold; */
+background: #80FF80;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.greenmoon li a:visited{
+color: black;
+}
+
+.greenmoon li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+
+
+
+.yellowmoon{
+margin-bottom: 2px;
+}
+
+.yellowmoon ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 10px;
+font: bold 30px "Times New Roman", Times, Serif;
+
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px solid #929492;
+
+}
+
+.yellowmoon li{
+display: inline;
+margin: 0;
+}
+
+.yellowmoon li a{
+text-decoration: none;
+padding: 2px 5px 1px 3px;
+margin: 0;
+margin-right: 3px; /*distance between each tab*/
+border-left: 1px;
+color: black;
+/* font-size: 34px; */
+font: bold 34px "Times New Roman", Times, Serif;
+background: #FFFF00;
+/*background: #ffffff url(../image/tabright.gif) top right no-repeat;*/
+}
+
+/*#DEBF93*/
+
+
+.yellowmoon li a:visited{
+color: black;
+}
+
+.yellowmoon li a:hover{
+/* background-color: #CDDADA; */
+background-color: #000;
+color: #FFFF00;
+}

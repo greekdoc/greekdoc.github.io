@@ -1,0 +1,1440 @@
+/* ++++++++++++ Essential to all Greek +++++++++++++ */
+/* reset CSS */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,
+caption,center,cite,dd,del,details,dfn,div,dl,dt,em,embed,
+fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,
+img,input,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,
+q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,
+th,thead,time,tr,tt,u,ul,var,video
+{
+border: 0;
+margin: 0;
+padding: 0;
+vertical-align: baseline;
+}
+
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th
+{font-size:1em; font-weight:normal; font-style:normal;
+}
+
+ul,ol {list-style:none;
+}
+
+fieldset,img,hr {border:none;
+}
+
+caption,th {text-align:left;
+}
+
+table {border-collapse:collapse; border-spacing:0;
+}
+
+td {vertical-align:top;
+}
+
+/* end reset */
+
+/*
+Correct padding with widths.
+When you add padding to an element with a width,
+ it will end up much larger than what it should be.
+ The width and the padding will be added together.
+ So, if I have an element with the width of 100px,
+ and I add a padding of 10px to that same element,
+ then the awkward browser behavior will make that
+ element 120px. The following will correct that.
+*/
+
+* { -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box; /* Firefox, other Gecko */
+	box-sizing: border-box;
+}
+
+/* Clear all floats */
+.parent-selector:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Clear all wrap floats */
+.wrap:after {
+content: "";
+display: table;
+clear: both;
+}
+
+dl {
+-webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+
+body {
+	background-image:url('../images/background.jpg');
+	background-attachment: fixed;
+	background-position:top center;
+	color: black;
+}
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+#container
+ {
+	max-width: 922px;
+	 margin: 0 auto;
+	 text-align: left;
+	 background-color: #fff;
+	 border: 1px solid black;
+}
+
+donate {
+ position: absolute;
+ left: 0px;
+ width: 200px;
+}
+
+/* paypal is found on halfmoon.css */
+#paypal {
+	margin-left: 20px;
+	float: left;
+	clear: both;
+}
+
+#paypal	img { border: 0;
+}
+
+div.id img {
+	width: 100%;
+	height: auto;
+}
+
+/*
+<div class='id'>
+	<img src='../images/id-1.png' alt='first ID chart'>
+</div>
+*/
+
+.scripture {
+	border: 5px solid red;
+	padding: 10px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p.lineh {
+	line-height:180%;
+}
+
+p.hebrew {
+	/* line-height: 40px; */
+	line-height: 175%;
+	font-family: "Times New Roman", Georgia, Times, Serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: black;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-align: right;
+ -moz-text-align-last: right; /* Code for Firefox */
+ text-align-last: right;
+	display: block;
+}
+
+
+
+/* Make the first letter large and red */
+p.intro::first-letter {
+  color: #ff0000;
+  font-size:200%;
+	/* or  font-size: xx-large; */
+}  
+
+p.box {
+ border-radius: 25px;
+ border: 5px solid #73AD21;
+ padding: 5px;
+	margin: .5em .1em .5em -1em;
+
+	font-size: .8em;
+ /* width: 200px; */
+ /* height: 150px; */
+
+/* border: 2px solid black;
+ outline: #4CAF50 solid 5px; 
+ margin: auto; 
+ padding: 20px; 
+*/
+ /* text-align: center; */
+	/* margin-top: 10px; */
+	/* line-height: 1.4; */
+
+}
+
+ abbr[title], acronym[title] {
+    border-bottom-style: dotted;
+	text-decoration: none;
+	/* font-weight: bold; */
+}
+
+abbr {
+ position: relative;
+}
+
+abbr:hover::after {
+ position: absolute;
+ bottom: 100%;
+ left: 100%;
+ display: block;
+ padding: .5em;
+ background: yellow;
+ content: attr(title);
+	font-size: 1em;
+width: 200px;
+}
+
+/* ++++++++++ Places page name on bottom right corner ++++++++++ */
+div.booktitle
+{
+		text-align: center;
+		
+		position: fixed;
+		font-size: 95%;
+		color: black;
+		bottom: 0;
+ right: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 10px;
+ width: auto;
+		background-color: yellow;
+ border: 4px solid black;
+}
+
+/* +++++++++++ Menu of all the pages or chapters +++++++++++++ */
+/* +++++++++++ Access with <div id='menu'> +++++++++++++++++++ */
+
+#menu
+ {
+	 max-width: 922px;
+	 margin: auto;
+	 padding: 0px 10px 10px 10px;
+
+	/*width: 900px;
+	padding: 0px 0px 0px 0px; C0FFFF */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#A2A4EE), to(#4040FF)); /* Safari 4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #A2A4EE, #4040FF); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+	background-image: -moz-linear-gradient(top, #A2A4EE, #4040FF); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, #A2A4EE, #4040FF); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, #A2A4EE, #4040FF); /* Firefox 16+, IE10, Opera 12.50+ */
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#A2A4EE', endColorstr='#4040FF'); /* IE6 & IE7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A2A4EE', endColorstr='#4040FF')"; /* IE8 & IE9 */
+}
+
+/* ++++++++++++ The text goes under 'main' ++++++++++++++ */
+/* ++++++++++++ Access with <div class='main'> ++++++++++++++ */
+
+.main
+ {
+	/*max-width: 800px;*/
+	 width: 95%;
+	 margin: auto;
+	 padding: 4px 10px 0px 1px;
+	/*padding: 0px 10px 0px 20px;*/
+	 font-size: 30px;
+	 font-family: "Times New Roman", Times, Serif;
+	 margin-top: 10px;
+	 background-color: rgb(255,255,255);
+}
+
+/* ++++++++++++ Main paragraph style ++++++++++++++ */
+.main p {
+	/* text-align: justify; */
+	margin-top: .5em;
+}
+
+/* ++++++++++++ Main table style 2-column ++++++++++++++ */
+/* table {
+   border: 1px solid black;
+    width: 100%;
+} */
+
+table
+{
+  font-family: "Times New Roman", Georgia, Times, Serif;
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 20px;
+	table-layout: fixed;
+}
+
+td {
+	
+	border: 1px solid black;
+	width: 50%;
+	padding: 15px;
+	text-align: left;
+	color: black;
+	line-height: 125%;
+	font-size: 30px;
+}
+
+td.mybook {
+	
+	border: 1px solid black;
+	width: 20%;
+	padding: 15px;
+	text-align: left;
+	color: black;
+	line-height: 125%;
+	font-size: 30px;
+}
+
+td.mytitle {
+  border: 1px solid #ddd;
+  padding: 8px;	
+background-color: green;
+}
+
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+	width: 50%;
+}
+
+th {
+/* 	border: 10px solid #fff;
+	width: 50%;
+	padding: 15px;
+	text-align: center;
+	color: white;
+	background-color: blue;
+ */
+	padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+
+}
+
+/* ++++++++++++ Main table style 3-column ++++++++++++++ */
+.tri table, th, td {
+   border: 1px solid black;
+}
+
+.tri td, th {width: 33%;
+}
+
+.tri table {
+    width: 100%;
+}
+
+.tri th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tri th {
+	color: white;
+	background-color: blue;
+
+}
+
+.c {text-align: center;
+}
+
+.nope {border-style: none; border: none;
+}
+
+.ind {
+	display: block;
+	margin-left: 20px;
+	margin-right: 0px;
+	font-size: 30px;
+	margin-top: .2em;
+	margin-bottom: .2em;
+   /* text-indent: 20px; */
+	/* margin-bottom: 0em */
+}
+
+.ind2 {
+	display: block;
+	margin-left: 40px;
+	margin-right: 0px;
+	font-size: 30px;
+	margin-top: .2em;
+  /* text-indent: 20px; */
+	/* margin-bottom: 0em */
+}
+
+.ind3 {
+	display: block;
+	margin-left: 60px;
+	margin-right: 0px;
+	font-size: 30px;
+	margin-top: .2em;
+  /* text-indent: 20px; */
+	/* margin-bottom: 0em */
+}
+
+.ind4 {
+	display: block;
+	margin-left: 80px;
+	margin-right: 0px;
+	font-size: 30px;
+	margin-top: .2em;
+  /* text-indent: 20px; */
+	/* margin-bottom: 0em */
+}
+
+/* +++++++++++ the initial verse number in red ++++++++++++++ */
+
+.num a {vertical-align:super;
+ font-size: .6em;
+ font-weight: bold;
+ color: red;
+ font-family: Arial, Helvetica, Verdana;}
+
+.hi2 {
+	background-color: #7ABEEE;
+	color: black;
+}
+
+/*
+.blank {
+	background-color: white;
+	color: white;
+}
+
+ */
+
+.yesC {text-align: center; font-size: 1.1em;
+}
+
+.yesL {text-align: left; font-size: 1.1em;
+}
+
+caption {color: black; background-color: yellow; font-size: 2em;
+}
+
+/* +++++++++++ headings ++++++++++++++ */
+/* <h1 id="myHeader">Hello World!</h1> */
+
+h1 {
+	font-size: 3em;
+	color: yellow;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-align:center;
+	text-shadow:5px 5px 10px black;
+	text-transform:uppercase;
+	font-family: Arial, Sans-serif;
+}
+
+h2.org {
+ border-radius: 25px;
+text-align: center;font-size: 35px; width: 90%; color: black;font-weight: bold; margin-left: auto; margin-right: auto; font-family: Arial, Sans-serif;
+background: url('dark1.png');
+border-style: none none none solid;
+}
+
+h2 {
+	border-radius: 25px;
+	text-align: center;
+	font-size: 35px;
+ width: 90%;
+	color: black;
+	font-weight: bold;
+ margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-family: Arial, Sans-serif;
+	background: url('../images/grey.jpg');
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: auto;
+border-width: 6px;
+border-color: black;
+	border-style: none solid solid none;
+	text-transform: capitalize;
+
+}
+
+h3 {
+	border-width: 6px;
+	border-color: black;
+	border-style: none solid solid none;
+ border-radius: 25px;
+ /* background: #73AD21; */
+				background: url('../images/grass.jpg');
+		font-size: 1.5em;
+		color: #fff;
+		text-shadow: 3px 3px #000;
+		font-weight: bold;
+		text-align:center;
+ padding: 30px;
+ max-width: 300px;
+ height: auto;
+		width: auto;
+		margin-bottom: 15px;
+}
+
+.h3color {background: #73AD21;
+}
+
+h4 {
+	margin-left: auto; margin-right: auto;
+	border-width: 5px;
+	border-color: black;
+	border-style: none solid solid none;
+ border-radius: 25px;
+ /* background: pink; */
+				background: url('../images/pink.jpg');
+		font-size: 35px;
+		color: black;
+		font-weight: bold;
+		text-align: center;
+ padding: 20px;
+ max-width: 450px;
+ height: auto;
+		width: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+}
+
+h5 { text-align: center;
+font-size: 40px; width: 90%;
+	margin-top:-10px;
+	color: #000000;font-weight: bold;
+	margin-left: auto; margin-right: auto;
+	font-family: "Times New Roman", Times, Serif;
+	/* text-transform: capitalize; */
+}
+
+/* +++++++++++ Changes character in h4 to lowercase ++++++++++++++ */
+.low {text-transform: lowercase;
+}
+
+h6 { background: blue;
+color: white;
+}
+
+/* use for footnotes */
+.f {
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+margin-left: 2em;
+}
+
+.r {color: red; font-weight: bold;
+}
+
+.i {font-style: italic;
+}
+
+.n {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.big {font-size: 150%;}
+
+.bigger {font-size: 200%}
+
+.b {font-weight: bold;
+}
+
+.s {font-size: 0.6em;}
+
+.w {color: white;
+}
+
+.l {text-transform: lowercase;
+}
+
+em {color: black;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+.u {text-decoration: underline;
+}
+
+.norm { font-weight: normal;
+}
+
+
+
+.hang {
+    padding-left: 36px
+    text-indent: -36px
+}
+
+cite {
+	font-weight: normal;
+	color: green;
+	font-size: 60%;
+}
+
+/* +++++++++++ turn something yellow, esp an item in a table ++++++++++++++ */
+.x {background-color: yellow;
+ color: black;
+ font-weight: bold;
+ text-align: center;
+
+}
+
+/* +++++++++++ increase the size to 30 ++++++++++++++ */
+.l {font-size: 30px;
+}
+
+/* +++++++++++ LINKS decoration ++++++++++++++ */
+
+a {
+ color: black;
+ text-decoration: none;
+	font-style: normal;
+}
+
+a:link {color: #0000FF; font-size: 1.0em; border: none; text-decoration: none;
+}
+
+a:visited {color: #0000FF; font-size: 1.0em; border: none; text-decoration: none;
+}
+
+/* a:hover {color: rgb(0,64,64); font-size: 1.0em; border: none; text-decoration: none;
+} */
+a:hover {color: red; font-size: 1.0em; border: none; text-decoration: none;
+}
+
+a:active {color: #000000; font-size: 1.0em; border: none; text-decoration: none;
+}
+
+
+/* 
+a:hover {
+ color: red;
+ position: relative;
+}
+ */
+
+/* +++++++++++ footnotes ++++++++++++++ */
+
+sup {
+  font-size: .7em;
+font-weight: bold;
+font-family: Arial, Helvetica, Verdana;
+background-color: white;
+color: red;
+
+}
+
+.chapter {
+	background-color: white;
+}
+
+.indent0
+{
+position:absolute;
+margin-left:-50px;
+}
+
+.indent00
+{
+position:relative;
+left: 25px;
+}
+
+.indent1
+{
+position:relative;
+padding: 0 5px 0 0px;
+}
+
+.indent2
+{
+position:relative;
+left:55px;
+}
+
+.indent3
+{
+position:relative;
+left:80px;
+}
+
+
+
+
+
+
+
+.zindent0
+{
+position: relative;
+margin-left: 1em;
+}
+
+.zindent1
+{
+position: relative;
+margin-left: 1.5em;
+}
+
+.zindent2
+{
+position: relative;
+margin-left: 2em;
+}
+
+.zindent3
+{
+position: relative;
+margin-left: 2.5em;
+}
+
+p.leftside {
+	text-indent:0px;
+	padding: 50px;
+	font-weight: bold;
+
+}
+
+p {
+   text-indent: 30px;
+}
+p.poem > span { padding-left: 20px ; }
+/*
+<p class="poem">
+Day after day, day after day,
+<br>
+
+<span>We stuck, nor breath nor motion;</span>
+<br>
+
+As idle as a painted ship
+<br>
+
+<span>Upon a painted ocean.</span>
+
+Each span line is indented 20px
+BUT there can be no other <span> inside the poem such as <span class='i'>italic</span>
+*/
+
+/* See Josh 22:5 for this hanging indent */
+.q {
+	display: block;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 30px;
+	 padding-left: 20px;
+	text-indent: -20px;
+}
+
+/* blockquote {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+ */
+
+blockquote {
+	margin-left: 2em;
+	color: black;
+	font-size: 1em;	
+  /* border: 1px solid gray; */
+  padding: 8px;
+	font-weight: bold;
+}
+
+
+blockquote.n {
+	margin-left: 2em;
+	color: black;
+	font-size: 1em;	
+  /* border: 1px solid gray; */
+  padding: 8px;
+	font-weight: norm;
+}
+
+
+
+
+
+
+.quote {
+ display: block;
+ margin-left: 40px;
+ margin-right: 40px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-size: 30px;
+		 padding-left: 20px;
+ text-indent: -20px;
+}
+
+.quote1 {
+ display: block;
+ margin-left: 20px;
+ margin-right: 20px;
+		font-size: 30px;
+}
+
+/* use following to remove the extra line between paragraphs
+p {
+ margin-top: 0px;
+ margin-bottom: 0px;
+	margin-top: .2em;
+
+}
+
+*/
+
+.in {display: inline;
+}
+
+.indent40 {margin-left: 40px; margin-right: 40px;
+}
+
+.indent60 {margin-left: 70px; margin-right: 70px;
+}
+
+.indent80 {margin-left: 90px; margin-right: 90px;
+}
+
+.indent100 {margin-left: 110px; margin-right: 110px;
+}
+
+.pad80 {padding-left: 90px; max-width: 700px;
+}
+
+/* hanging indent */
+.hang2 {
+ padding-left: 22px ;
+ text-indent: -22px ;
+}
+
+.hanging {
+ padding-left: 60px ;
+ text-indent: -60px ;
+}
+
+p.block
+{
+	/*max-width: 950px;*/
+	/*max-width: 800px;*/
+	text-align: justify;
+ margin-left: 150px;
+	/*background-color: #E2C9A0;*/
+	color: black;
+	text-indent:0px;
+}
+
+p.border1
+{
+	border-style: solid;
+ border-width: medium;
+	padding: 1em;
+}
+
+/*
+p.quote
+{ font-size: 30px;
+	font-weight: bold;
+	text-align: justify;
+ margin-left: 50px;
+	color: black;
+	text-indent:0px;
+	margin-top:-10px;
+}
+
+p.quotenorm
+{ font-size: 30px;
+	font-weight: normal;
+	text-align: justify;
+ margin-left: 50px;
+	color: black;
+	text-indent:0px;
+	margin-top:-10px;
+}
+
+b
+{ font-size: 30px;
+	color: black;
+	font-weight: bold;
+}
+
+*/
+
+/* for halfmoon, set a space between each row*/
+li { text-align: justify; font-size: 23px;
+}
+
+figure.right {
+	float: right;
+	/*margin-right: -8px;*/
+	padding: 0 0px 0 10px;
+}
+
+figcaption {font: 30px "Times New Roman";
+ font-weight: bold;
+ text-align: center;
+ color: black;
+	background-color: #FFFFC0;
+
+}
+
+/* +++++++++++ footer is outside of main ++++++++++++++ */
+
+footer {
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 2em;
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+
+#foot {
+ width: 900px;
+	clear: both;
+	 background-color: white;
+ background-position: bottom;
+ padding: 4px 10px 0px 10px;
+	 margin-top: 0px;
+	 font-size: 1em;
+	
+}
+
+#foot h1
+ {
+	background-color: #4040FF;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-shadow: none;
+	font-size: 25px;
+}
+
+
+#foot p {
+ text-align: left;
+ font-size: 1em;
+}
+
+
+#foot p.leftside {
+	text-align: left;
+		 font-size: 30px;
+	 font-family: "Times New Roman", Times, Serif;
+	text-indent:0px;
+}
+
+@media only screen and (min-width: 600px) {
+ /* For tablets: */
+ .col-m-1 {width: 8.33%;
+}
+
+ .col-m-2 {width: 16.66%;
+}
+
+ .col-m-3 {width: 25%;
+}
+
+ .col-m-4 {width: 33.33%;
+}
+
+ .col-m-5 {width: 41.66%;
+}
+
+ .col-m-6 {width: 50%;
+}
+
+ .col-m-7 {width: 58.33%;
+}
+
+ .col-m-8 {width: 66.66%;
+}
+
+ .col-m-9 {width: 75%;
+}
+
+ .col-m-10 {width: 83.33%;
+}
+
+ .col-m-11 {width: 91.66%;
+}
+
+ .col-m-12 {width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+ /* For desktop: */
+ .col-1 {width: 8.33%;
+}
+
+ .col-2 {width: 16.66%;
+}
+
+ .col-3 {width: 25%;
+}
+
+ .col-4 {width: 33.33%;
+}
+
+ .col-5 {width: 41.66%;
+}
+
+ .col-6 {width: 50%;
+}
+
+ .col-7 {width: 58.33%;
+}
+
+ .col-8 {width: 66.66%;
+}
+
+ .col-9 {width: 75%;
+}
+
+ .col-10 {width: 83.33%;
+}
+
+ .col-11 {width: 91.66%;
+}
+
+ .col-12 {width: 100%;
+}
+}
+
+.kolumn
+	{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+}
+
+
+
+.kolumn h3 {
+	color: red;
+}
+
+.main dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main dt {
+	font-family: "Times New Roman", Times, Serif;
+	/*font-size: 125%;*/
+	font-weight: bold;
+	font-size: 1.2em;
+	color: red;
+	padding-left: 2px;
+}
+
+.main dd {
+    display: block;
+    margin-left: 1.1em;
+	color: black;
+	font-family: "Times New Roman", Georgia, Times, Serif;
+}
+
+.main li {
+	font-family: "Times New Roman", Georgia, Times, Serif;
+	font-size: 25px;
+}
+
+.main li li {
+	font-family: "Times New Roman", Times, Serif;
+	font-size: 25px;
+}
+
+.main li li li {
+	font-family: "Times New Roman", Times, Serif;
+	font-size: 25px;
+}
+
+/* ol is used for this type; ul for bullets */
+.main ol { list-style-type: upper-roman;
+}
+
+.main ol ol { list-style-type: upper-alpha;
+}
+
+.main ol ol ol { list-style-type: decimal;
+}
+
+.main ol ol ol ol { list-style-type: lower-alpha;
+}
+
+.main ol ol ol ol ol { list-style-type: lower-roman;
+}
+
+ol.d {
+ list-style-type: decimal;
+		margin-left: 25px;
+		padding: 0 5px 0 5px;
+		font-size: .7em;
+
+}
+
+*.big {
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+
+*.bigwhite {
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.vbig
+{ background-color:#FFffff; font-size: 5em;
+}
+
+span.large
+{ background-color:#FFffff; font-size: 1.5em;
+}
+
+.vleft
+ {float: left;
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 20px;
+	background-color: #FDFDDF;
+	color: black;
+ width: 415px;
+ padding: 0 22px;
+}
+
+.vleft b
+	{
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 25px;
+}
+
+.vright b
+	{
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 25px;
+}
+
+.vright
+ {float: right;
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 20px;
+	background-color: #DEFEDE;
+	color: black;
+ width: 415px;
+ margin: 0px 22px 22px 0;
+}
+
+.vleft table {
+
+	text-align: center;
+	border-collapse:collapse;
+	border: none;
+	background-color: white;
+}
+
+.vleft td, th
+	{
+		border:1px solid black;
+		text-align: left;
+		vertical-align: top;
+	font-family: "Times New Roman", Georgia, Times, Serif;
+ 	font-size: 1.2em;
+}
+
+.clear {
+	clear:both;
+}
+
+section {
+ /* position is static by default */
+ margin-left: 200px;
+}
+
+header
+ {
+	max-width: 922px;
+ padding: 22px 0px;
+}
+
+.menu2
+ {
+	width: 922px;
+ padding:0px 0px 0px 0px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#95d0fc), to(#0343df)); /* Safari 4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #95d0fc, #0343df); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+	background-image: -moz-linear-gradient(top, #95d0fc, #0343df); /* Firefox 3.6-15 */
+	background-image: -o-linear-gradient(top, #95d0fc, #0343df); /* Opera 11.10-12.00 */
+	background-image: linear-gradient(to bottom, #95d0fc, #0343df); /* Firefox 16+, IE10, Opera 12.50+ */
+ 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#95d0fc', endColorstr='#0343df'); /* IE6 & IE7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#95d0fc', endColorstr='#0343df')"; /* IE8 & IE9 */
+}
+
+#submenu
+ {
+	width: 922px;
+ padding: 22px 0px;
+	background-color: white;
+}
+
+.newspaper {
+ -webkit-column-count: 2; /* Chrome, Safari, Opera */
+ -moz-column-count: 2; /* Firefox */
+ column-count: 2;
+ -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+ -moz-column-gap: 40px; /* Firefox */
+ column-gap: 40px;
+ -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+ -moz-column-rule-style: solid; /* Firefox */
+ column-rule-style: solid;
+}
+
+hr {
+ display: block;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: auto;
+ margin-right: auto;
+ border-style: inset;
+ border-width: 1px;
+}
+
+/* h2:before { */
+ /* content: "Read: "; */
+/* <span class="Apple-converted-space"> color: #F00;</span> */
+/*
+}
+
+ */
+/* This is extremely handy, especially if you are using an icon font. You can place icons before certain elements, and apply it globally. */
+
+/*
+Drop caps
+Everyone loves drop caps. It reminds us of the traditional printed book, and is a great way to start a page of content. That 1st, large letter really grabs your attention. There’s an easy way to create a drop cap in css, and it’s by using the pseudo element: :first letter. Here’s an example :
+
+p:first-letter{
+ display:block;
+ float:left;
+ margin:3px;
+ color:#f00;
+ font-size:300%;
+}
+
+*/
+
+/* The sidebar menu */
+.sidenav {
+ height: 100%; /* Full-height: remove this if you want "auto" height */
+ width: 230px; /* Set the width of the sidebar */
+ position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+ z-index: 1; /* Stay on top */
+ top: 0; /* Stay at the top */
+ left: 0;
+ background-color: #111; /* Black */
+ overflow-x: hidden; /* Disable horizontal scroll */
+ padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+ padding: 6px 8px 6px 16px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #818181;
+ display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+ color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+ margin-left: 10px; /* Same as the width of the sidebar */
+ padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+ .sidenav {padding-top: 15px;
+}
+
+ .sidenav a {font-size: 18px;
+}
+
+}
+
+/* Navbar container */
+.navbar {
+	border-radius: 25px;
+ overflow: hidden;
+ background-color:#C0C0C0;
+ font-family: Arial;
+ margin-bottom: 1em;
+ background: url('../lexicon/image/flower.jpg');
+border-width: 6px;
+border-color: black;
+	border-style: none solid solid none;
+
+}
+
+/* Links inside the navbar */
+.navbar a {
+ float: left;
+ font-size: 16px;
+ color: black;
+ font-weight: bold;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+ float: left;
+ border-radius: 25px;
+ overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: black;
+ font-weight: bold;
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit; /* Important for vertical align on mobile phones */
+ margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: red;
+ border-radius: 25px;
+color: white;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ float: none;
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+ background-color: red;
+	color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+/*
+#myProgress {
+    width: 100%;
+    background-color: grey;
+}
+
+#myBar {
+    width: 9.6%;
+    height: 30px;
+    background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+*/
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/*
+Macro: Alt-T
+change:
+<a href="../lexicon/ie.html#ierews" title="priest">ἱερέως</a>
+to this:
+<div class="ttip"><a href="../lexicon/ie.html#ierews">ἱερέως</a><span class="ttext">priest</span></div>
+*/
+/* Tooltip container */
+.ttip {
+ position: relative;
+ display: inline-block;
+ /*border-bottom: 1px dotted black; If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.ttip .ttext {
+ visibility: hidden;
+ max-width: 200px;
+ background-color: #FFFF80;
+ color: #000;
+ text-align: center;
+ padding: 10px 10px;
+ border-radius: 6px;
+ padding-top: 7px;
+ width: auto;
+ border: 4px solid black;
+font-size: 80%;
+ /* Position the tooltip text */
+  position: fixed;
+  top: 0;
+  right: 0;
+
+/*  position: absolute;
+ z-index: 1;
+ bottom: 100%;
+ left: 50%;
+ margin-left: -60px;
+ */
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.ttip:hover .ttext {
+ visibility: visible;
+}
+

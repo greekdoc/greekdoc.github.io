@@ -1,0 +1,22 @@
+//<script src='../js/cognate/s/stellw.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anas.html#anastellw'>ἀναστέλλω</a>, ");
+document.write("<a href='anta.html#antapostellw'>ἀνταποστέλλω</a>, ");
+document.write("<a href='apod.html#apodiastellw'>ἀποδιαστέλλω</a>, ");
+document.write("<a href='aposte.html#apostellw'>ἀποστέλλω</a>, ");
+document.write("<a href='dias.html#diastellw'>διαστέλλω</a>, ");
+document.write("<a href='exap.html#exapostellw'>ἐξαποστέλλω</a>, ");
+document.write("<a href='epap.html#epapostellw'>ἐπαποστέλλω</a>, ");
+document.write("<a href='epist.html#epistellw'>ἐπιστέλλω</a>, ");
+document.write("<a href='katas.html#katastellw'>καταστέλλω</a>, ");
+document.write("<a href='peris.html#peristellw'>περιστέλλω</a>, ");
+document.write("<a href='proa.html#proapostellw'>προαποστέλλω</a>, ");
+document.write("<a href='proe.html#proexapostellw'>προεξαποστέλλω</a>, ");
+document.write("<a href='prosa.html#prosapostellw'>προσαποστέλλω</a>, ");
+document.write("<a href='prosu.html#prosustellw'>προσυστέλλω</a>, ");
+document.write("<a href='ste.html#stellw'>στέλλω</a>, ");
+document.write("<a href='sunap.html#sunapostellw'>συναποστέλλω</a>, ");
+document.write("<a href='sust.html#sustellw'>συστέλλω</a>, ");
+document.write("<a href='upos.html#upostellw'>ὑποστέλλω</a>");
+document.write("</p></li>");

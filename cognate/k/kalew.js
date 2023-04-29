@@ -1,0 +1,19 @@
+//<script src='../js/cognate/k/kalew.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+document.write("<a href='anak.html#anakalew'>ἀνακαλέω</a>, ");
+document.write("<a href='antik.html#antikalew'>ἀντικαλέω</a>, ");
+document.write("<a href='egk.html#egkalew'>ἐγκαλέω</a>, ");
+document.write("<a href='eis.html#eiskalew'>εἰσκαλέω</a>, ");
+document.write("<a href='ekk.html#ekkalew'>ἐκκαλέω</a>, ");
+document.write("<a href='epik.html#epikalew'>ἐπικαλέω</a>, ");
+document.write("<a href='kal.html#kalew'>καλέω</a>, ");
+document.write("<a href='meta.html#metakalew'>μετακαλέω</a>, ");
+document.write("<a href='parak.html#parakalew'>παρακαλέω</a>, ");
+document.write("<a href='proe.html#proepikalew'>προεπικαλέω</a>, ");
+document.write("<a href='prok.html#prokalew'>προκαλέω</a>, ");
+document.write("<a href='prosk.html#proskalew'>προσκαλέω</a>, ");
+document.write("<a href='prosp.html#prosparakalew'>προσπαρακαλέω</a>, ");
+document.write("<a href='sugka.html#sugkalew'>συγκαλέω</a>, ");
+document.write("<a href='sumpa.html#sumparakalew'>συμπαρακαλέω</a>");
+document.write("</p></li>");

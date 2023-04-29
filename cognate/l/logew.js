@@ -1,0 +1,41 @@
+//basic cognates λογέω
+//<script src='../js/cognate/logew.js'></script>
+document.write("<li><span class='cat'>Cognates: </span>");
+document.write("<p class='box'>");
+//each entry -- swap all quotes to '; swap all " to '
+document.write("<a href='alo.html#alogew'>ἀλογέω</a>, ");
+document.write("<a href='anq.html#anqomologeomai'>ἀνθομολογέομαι</a>, ");
+document.write("<a href='anq.html#anqomologew'>ἀνθομολογέω</a>, ");
+document.write("<a href='anq.html#anqomologeomai'>ἀνθομολογέομαι</a>, ");
+document.write("<a href='apolo.html#apologeomai'>ἀπολογέομαι</a>, ");
+document.write("<a href='bat.html#battologew'>βαττολογέω</a>, ");
+document.write("<a href='gen.html#genealogew'>γενεαλογέω</a>, ");
+document.write("<a href='deu.html#deuterologew'>δευτερολογέω</a>, ");
+document.write("<a href='do.html#doxologew'>δοξολογέω</a>, ");
+document.write("<a href='ela.html#elaiologew'>ἐλαιολογέω</a>, ");
+document.write("<a href='ell.html#ellogew'>ἐλλογέω</a>, ");
+document.write("<a href='ene.html#eneulogew'>ἐνευλογέω</a>, ");
+document.write("<a href='exo.html#exomologew'>ἐξομολογέω</a>, ");
+document.write("<a href='epik.html#epikarpologew'>ἐπικαρπολογέω</a>, ");
+document.write("<a href='epir.html#epirrwgologeomai'>ἐπιρρωγολογέομαι</a>, ");
+document.write("<a href='eul.html#eulogew'>εὐλογέω</a>, ");
+document.write("<a href='hq.html#hqologew'>ἠθολογέω</a>, ");
+document.write("<a href='kaq.html#kaqomologew'>καθομολογέω</a>, ");
+document.write("<a href='kak.html#kakologew'>κακολογέω</a>, ");
+document.write("<a href='kateu.html#kateulogew'>κατευλογέω</a>, ");
+document.write("<a href='ke.html#kenologew'>κενολογέω</a>, ");
+document.write("<a href='koi.html#koinologeomai'>κοινολογέομαι</a>, ");
+document.write("<a href='xe.html#xenologew'>ξενολογέω</a>, ");
+document.write("<a href='om.html#omologew'>ὁμολογέω</a>, ");
+document.write("<a href='op.html#oplologew'>ὁπλολογέω</a>, ");
+document.write("<a href='proe.html#proexomologew'>προεξομολογέω</a>, ");
+document.write("<a href='proe.html#proexomologeomai'>προεξομολογέομαι</a>, ");
+document.write("<a href='se.html#semnologew'>σεμνολογέω</a>, ");
+document.write("<a href='str.html#stratologew'>στρατολογέω</a>, ");
+document.write("<a href='sunar.html#sunarmologew'>συναρμολογέω</a>, ");
+document.write("<a href='suno.html#sunomologew'>συνομολογέω</a>, ");
+document.write("<a href='fo.html#forologew'>φορολογέω</a>, ");
+document.write("<a href='cr.html#crhsmologew'>χρησμολογέω</a>, ");
+document.write("<a href='ye.html#yeudologew'>ψευδολογέω</a>, ");
+document.write("<a href='yh.html#yhfologew'>ψηφολογέω</a>");
+document.write("</p></li>");

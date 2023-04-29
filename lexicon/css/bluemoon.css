@@ -1,0 +1,93 @@
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.bluemoon{
+margin-bottom: 10px;
+}
+
+.bluemoon ul{
+padding: 3px 9px 10px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 1px;
+font: bold 12px Arial, Helvetica, sans-serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px;
+}
+
+.bluemoon li{
+display: inline;
+margin: 0;
+}
+
+.bluemoon li a{
+text-decoration: none;
+padding: 3px 5px 2px 3px; /*top, right, bottom, left*/
+margin: 0;
+margin-right: 2px; /*distance between each tab*/
+border-left: 1px solid #DDD;
+color: white;
+font-size: 14px;
+background: blue;
+}
+
+.bluemoon li a:visited{
+color: yellow;
+}
+
+.bluemoon li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+
+/* lxx is found on bluemoon.css */	
+#lxx {
+margin-bottom: 10px;
+margin-top: -70px;
+display: block;
+width: 650px;
+  margin-left: 230px;
+  margin-right: auto;
+
+}
+
+#lxx ul{
+padding: 3px 9px 2px 5px;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 1px;
+font: bold 12px Arial, Helvetica, sans-serif;
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+border-bottom: 0px solid #929492;
+}
+
+#lxx li{
+display: inline;
+margin: 0;
+}
+
+#lxx li a{
+text-decoration: none;
+padding: 3px 5px 2px 3px; /*top, right, bottom, left*/
+margin: 0;
+margin-right: 2px; /*distance between each tab*/
+border-left: 1px solid #DDD;
+color: white;
+font-size: 14px;
+background: blue;
+}
+
+#lxx li a:visited{
+color: yellow;
+}
+
+#lxx li a:hover{
+background-color: #CDDADA;
+color: red;
+}
+
+/* for bluemoon, set a space between each row*/
+#lxx li { text-align: justify; font-size: 23px; }
